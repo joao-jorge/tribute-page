@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #main {
@@ -13,3 +16,59 @@ span {
     font-size: large;
 }
 
+#header {
+    padding: 5%;
+}
+
+#header h1{
+    font-size: 44px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#header p {
+    margin-top: 0.5%;
+}
+
+#img-div {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2em;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#tribute-info h1 {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#cent, #quotes, #name {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#cent ul{
+    padding-bottom: 10px;
+}
+
+#quotes, #name {
+    font-style: italic;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: gray
+}
+a:hover {
+    color: darkblue;
+}
+@media only screen and (max-width: 1290px){
+    img {
+      width: 100%;  
+    } 
+ }
