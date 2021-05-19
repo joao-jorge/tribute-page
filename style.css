@@ -71,4 +71,11 @@ a:hover {
     img {
       width: 100%;  
     } 
+
+    #cent, #quotes, #name {
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+        line-height: 1.5em;
+    }
  }
